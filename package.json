@@ -1,0 +1,17 @@
+{
+  "name": "inmobi_github",
+  "version": "0.0.1",
+  "description": "user Profile with Github",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.10.2",
+    "cookie-parser": "~1.3.3",
+    "express": "4.11.1",
+    "lodash": "4.11.1",
+    "mysql": "^2.14.1",
+    "redis": "^2.8.0",
+    "request": "2.45.0"
+  },
+  "author": "arvind_barala",
+  "license": "Proprietary"
+}

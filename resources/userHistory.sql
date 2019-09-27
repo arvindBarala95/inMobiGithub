@@ -1,0 +1,20 @@
+CREATE TABLE user_history (
+  `id` int(12) unsigned NOT NULL AUTO_INCREMENT,
+  `user_id` int(12) unsigned NOT NULL,
+  `user_name` varchar(255) NOT NULL,
+  `github_id` varchar(512),
+  `avatar_url` varchar(512),
+  `type` varchar(100),
+  `name` varchar(255),
+  `company` varchar(512),
+  `email` varchar(512),
+  `public_repos` int(12),
+  `followers` int(12),
+  `following` int(12),
+  `status` tinyint(1) NOT NULL DEFAULT 1,
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`),
+  unique key (`user_id`,`user_name`),
+	INDEX `idx_user_id` (`user_id`)
+)
