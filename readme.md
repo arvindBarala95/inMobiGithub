@@ -1,4 +1,4 @@
-# Market Checkout
+# InMobi Github
 
 ### IDE
 
@@ -20,7 +20,7 @@ Node v8.9.4, npm v5.6.0 and mysql. Links are given below
 
 clone the  repository
 ```
-git clone git@bitbucket.org:paytmteam/market-checkout.git
+git clone https://github.com/gilllu/inMobiGithub.git
 ```
 
 ## Running the project
