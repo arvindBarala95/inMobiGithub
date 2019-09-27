@@ -15,6 +15,7 @@ Node v8.9.4, npm v5.6.0 and mysql. Links are given below
 * For mysql use this command 
    * ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'mysql@123';
    * mysql -uroot -pmysql@123
+* Create 2 table(user,user_history) using resources folder query
 
 ### Installing
 
