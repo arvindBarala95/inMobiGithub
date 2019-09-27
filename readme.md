@@ -35,16 +35,16 @@ node app.js
 ```
 
 ## API
-* API for get user profile :  user is github logged in user
+* API for get user profile {GET API} :  user is github logged in user
 ```
 http://localhost:8421/v1/inMobi/gitHub/:user?gitHubUser=avish
 ```
-* API for get user history :
+* API for get user history {GET API}:
 ```
 http://localhost:8421/v1/inMobi/gitHub/history/:user
 ```
 
-* API for delete user history:
+* API for delete user history {POST API}:
 ```
 http://localhost:8421/v1/inMobi/gitHub/history/:user -d '{"user":"deepak"}'
 ```
